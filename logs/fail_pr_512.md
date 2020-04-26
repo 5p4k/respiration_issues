@@ -2,13 +2,14 @@ This file contains warnings raised when running with the master version of Sphin
 
 todo.h
 ---
+**NOTE: reported as [Exhale's issue #88](https://github.com/svenevs/exhale/issues/88).**
 ```
 (!) Unabridged API: unexpected kind 'page' (IGNORED)
 ```
 
 nested.h:
 ---
-
+**NOTE: reported as [Breathe's issue #514](https://github.com/michaeljones/breathe/issues/514).**
 ```
 ./respiration_issues/docs/api/classnested_1_1parent_1_1nested.rst:19: WARNING: Duplicate declaration, nested::parent::nested
 ./respiration_issues/docs/api/classnested_1_1parent_1_1nested.rst:19: WARNING: Duplicate declaration, void this_method_will_be_duplicate () const
