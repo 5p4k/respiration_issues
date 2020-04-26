@@ -8,6 +8,7 @@ todo.h
 
 friends.h
 ---
+**NOTE: This is fixed by [PR #512](https://github.com/michaeljones/breathe/pull/512)**
 ```
 ./respiration_issues/docs/api/classfriends_1_1protective__friend__a.rst:13: WARNING: Error when parsing function declaration.
 If the function has no return type:
@@ -29,6 +30,7 @@ If the function has a return type:
 
 inheritance.h
 ---
+**NOTE: This is fixed by [PR #512](https://github.com/michaeljones/breathe/pull/512)**
 ```
 ./respiration_issues/docs/api/classinherit_1_1parent.rst:22: WARNING: Duplicate declaration, unsigned inherit::parent::a_method()
 ```
@@ -43,6 +45,7 @@ nested.h
 
 templates.h
 ---
+**NOTE: This is fixed by [PR #512](https://github.com/michaeljones/breathe/pull/512)**
 ```
 ./respiration_issues/docs/api/classtemplates_1_1container.rst:13: WARNING: Too many template argument lists compared to parameter lists. Argument lists: 1, Parameter lists: 0, Extra empty parameters lists prepended: 1. Declaration:
     templates::container<T>::my_vector
@@ -80,6 +83,7 @@ Invalid C++ declaration: Expected identifier in nested name, got keyword: declty
 
 templ_union.h
 ---
+**NOTE: This is fixed by [PR #512](https://github.com/michaeljones/breathe/pull/512)**
 ```
 ./respiration_issues/docs/api/uniontempl__union_1_1ti__map.rst:13: WARNING: Invalid C++ declaration: Expected identifier in nested name, got keyword: template [error at 8]
   template<class UnsignedT> templ_union::ti_map
