@@ -1,7 +1,9 @@
-Respiration issues with Breathe, Exhale, Sphinx and Doxygen
+Issues with Breathe, Exhale, Sphinx and Doxygen
 ===
 
 This projects is just intended to reproduce a series of issues in using Exhale, which is based on Breathe, which calls Sphinx and Doxygen. These may occur in any of the four projects, I don't know yet.
+
+Some of these issues are fixed by [Breathe's PR #512](https://github.com/michaeljones/breathe/pull/512).
 
 Reproducing the issues
 ---
