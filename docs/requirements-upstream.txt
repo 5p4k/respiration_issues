@@ -1,0 +1,3 @@
+git+https://github.com/michaeljones/breathe.git
+git+https://github.com/sphinx-doc/sphinx.git
+git+https://github.com/svenevs/exhale.git
