@@ -19,6 +19,7 @@ namespace stream_ins {
     /** Some other stream-insertable structure somewhere else in the file.
      */
     struct some_unrelated_struct {
+        /// @brief Baz
         int baz = 1;
     };
 

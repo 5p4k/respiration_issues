@@ -7,7 +7,9 @@ namespace templ_union {
      */
     template <class UnsignedT>
     union ti_map {
+        /// @brief Some floating point
         float a;
+        /// @brief Our favourite unsigned type
         UnsignedT b;
     }
 }
