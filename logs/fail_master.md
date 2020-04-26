@@ -1,5 +1,11 @@
 This file contains warnings raised when running with the master version of Breathe, Sphinx and Exhale.
 
+todo.h
+---
+```
+(!) Unabridged API: unexpected kind 'page' (IGNORED)
+```
+
 friends.h
 ---
 ```
@@ -25,6 +31,11 @@ inheritance.h
 ---
 ```
 ./respiration_issues/docs/api/classinherit_1_1parent.rst:22: WARNING: Duplicate declaration, unsigned inherit::parent::a_method()
+```
+
+nested.h
+---
+```
 ./respiration_issues/docs/api/classnested_1_1parent_1_1nested.rst:19: WARNING: Duplicate declaration, void nested::parent::nested::this_method_will_be_duplicate() const
 ./respiration_issues/docs/api/classnested_1_1parent_1_1nested.rst:19: WARNING: Duplicate declaration, nested::parent::nested
 ```

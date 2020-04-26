@@ -1,5 +1,11 @@
 This file contains warnings raised when running with the master version of Sphinx and Exhale, but with the [`scoped-rendering`](https://github.com/jakobandersen/breathe/tree/scoped-rendering) that corresponds to [PR #512](https://github.com/michaeljones/breathe/pull/512).
 
+todo.h
+---
+```
+(!) Unabridged API: unexpected kind 'page' (IGNORED)
+```
+
 nested.h:
 ---
 
@@ -43,6 +49,7 @@ Potential matches:
 ```
 
 parse.h
+---
 ```
 ./respiration_issues/docs/api/typedef_parse_8h_1aca23ad7051f25ce3433da3d5ea86fb7b.rst:13: WARNING: Error in type declaration.
 Invalid C++ declaration: Expected identifier in nested name, got keyword: decltype [error at 69]
