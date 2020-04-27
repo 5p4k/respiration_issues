@@ -16,6 +16,7 @@ nested.h:
 ```
 
 detect_idiom.h
+**NOTE: This is a combination of Breathe's [#289](https://github.com/michaeljones/breathe/issues/289) and [#441](https://github.com/michaeljones/breathe/issues/441).**
 ---
 ```
 ./respiration_issues/docs/api/function_detect__idiom_8h_1a2298a2bb5c4964236303a599d5091d1c.rst:13: WARNING: Invalid C++ declaration: Expected end of definition. [error at 52]
