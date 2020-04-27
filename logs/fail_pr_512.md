@@ -36,6 +36,7 @@ Potential matches:
 
 main.cpp
 ---
+**NOTE: maybe just need to disable declaration in implementation files?**
 ```
 ./respiration_issues/docs/api/function_main_8cpp_1a9b1c3880da1371929acb3582f0a1f842.rst:13: WARNING: doxygenfunction: Cannot find function "some_function_which_will_never_be_relevat" in doxygen xml output for project "Test" from directory: ./doxyoutput/xml
 ./respiration_issues/docs/api/function_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4.rst:13: WARNING: doxygenfunction: Cannot find function "main" in doxygen xml output for project "Test" from directory: ./doxyoutput/xml
@@ -43,6 +44,7 @@ main.cpp
 
 stream_ins.h
 ---
+**NOTE: this is Breathe's [#289](https://github.com/michaeljones/breathe/issues/289).**
 ```
 ./respiration_issues/docs/api/function_stream__ins_8h_1a5fbd536323e164a0cbfc52ea9189e662.rst:13: WARNING: doxygenfunction: Unable to resolve multiple matches for function "operator<<" with arguments (std::ostream&, stream_ins::some_unrelated_struct const&) in doxygen xml output for project "Test" from directory: ./doxyoutput/xml.
 Potential matches:
@@ -52,6 +54,7 @@ Potential matches:
 
 parse.h
 ---
+**NOTE: most likely Breathe's [#408](https://github.com/michaeljones/breathe/issues/408).**
 ```
 ./respiration_issues/docs/api/typedef_parse_8h_1aca23ad7051f25ce3433da3d5ea86fb7b.rst:13: WARNING: Error in type declaration.
 Invalid C++ declaration: Expected identifier in nested name, got keyword: decltype [error at 69]
