@@ -32,7 +32,8 @@ release = 'alpha'
 # ones.
 extensions = [
     'breathe',
-    'exhale'
+    'exhale',
+    'sphinx.ext.todo'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -56,7 +57,7 @@ html_theme = 'alabaster'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = []
 
-
+todo_include_todos = True
 
 # Setup the breathe extension
 breathe_projects = {
